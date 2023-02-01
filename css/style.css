@@ -97,6 +97,9 @@ header{
     border: 2px solid white;
     margin: 20px;
     padding: 10px 15px 10px 15px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .hero{
@@ -131,6 +134,8 @@ header{
     font-family: 'Poppins', sans-serif;
     border: 2px dotted black;
     transition: 1s;
+    font-family: poppins;
+    font-size: small;
 }
 
 .quienes-somos img{
@@ -139,6 +144,9 @@ header{
 
 .quienes-somos div h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .quienes-somos{
@@ -154,11 +162,17 @@ header{
 
 .extractos div h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .extractos div h4{
     text-align: center;
     margin: 5px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
 }
 
 .extractos{
@@ -195,6 +209,12 @@ header{
 /*ESTUDIOS*/
 
 
+.formacion{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
 .estudios{
     display: flex;
     justify-content: center;
@@ -217,6 +237,9 @@ header{
 
 .estudios-sub1 h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .certificaciones{
@@ -225,6 +248,9 @@ header{
 
 .certificaciones h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .certificaciones div{
@@ -296,6 +322,8 @@ header{
     border: 2px dotted black;
     margin: 5px 5px 10px 5px;
     transition: 1s;
+    font-family: poppins;
+    font-size: small;
 }
 
 .que-ofrecemos-sub a input:hover{
@@ -304,6 +332,12 @@ header{
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
+}
+
+.que-ofrecemos-sub h1{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 .que-ofrecemos div img{
@@ -334,8 +368,18 @@ header{
     -moz-box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
 }
 
+.idiomas div ul{
+    padding: 0;
+}
+
 .idiomas div ul li{
     list-style: none;
+}
+
+.idiomas1 h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .tipos{
@@ -347,12 +391,22 @@ header{
     text-align: center;
 }
 
+.tipos1 h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: larger;
+}
+
 .tipos div{
     border: 3px solid mediumpurple;
     padding: 5px 10px 5px 10px;
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
+}
+
+.tipos div ul{
+    padding: 0;
 }
 
 .tipos div ul li{
@@ -367,12 +421,22 @@ header{
     text-align: center;
 }
 
+.conexion1 h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: larger;
+}
+
 .conexion div{
     border: 3px solid mediumpurple;
     padding: 5px 10px 5px 10px;
     box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
+}
+
+.conexion div ul{
+    padding: 0;
 }
 
 .conexion div ul li{
@@ -396,12 +460,22 @@ header{
     text-align: center;
 }
 
+.remoto1 h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: larger;
+}
+
 .remoto div{
     border: 3px solid mediumpurple;
     padding: 5px 10px 5px 10px;
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
+}
+
+.remoto div ul{
+    padding: 0;
 }
 
 .remoto div ul li{
@@ -464,12 +538,21 @@ header{
 /*CONTACTO*/
 
 
+.titulo-contacto{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
 .redes-sociales div p a img{
     height: 32px;
 }
 
 .redes-sociales h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .redes-sociales p{
@@ -485,6 +568,12 @@ header{
     margin: 30px;
 }
 
+.formulario h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
+}
+
 .formulario img{
     height: 250px;
 }
@@ -495,6 +584,9 @@ header{
 
 .ubicacion div h2{
     text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .ubicacion{
@@ -523,6 +615,8 @@ header{
     font-family: 'Poppins', sans-serif;
     border: 2px dotted black;
     transition: 1s;
+    font-family: poppins;
+    font-size: small;
 }
 
 .enviar-limpiar input:hover{
@@ -566,7 +660,29 @@ header{
 }
 
 .pais select{
-    font-family: 'Poppins', sans-serif;
+    font-family: poppins;
+    font-size: small;
+}
+
+.genero h3{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px;
+}
+
+.pais h3{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px;
+}
+
+.titulo-mensaje{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px;
 }
 
 
