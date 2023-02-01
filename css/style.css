@@ -34,6 +34,68 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/*------SELECTION (PSEUDOELEMENTO)------*/
+
+p::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+h1::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+h2::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+h3::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+h4::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+li::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+a::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+img::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+address::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+iframe::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+label::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
+select::selection{
+    background-color: palevioletred;
+    color: white;
+}
+
 
 /*-----HEADER-----*/
 
@@ -147,6 +209,9 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    margin: 0px;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .quienes-somos{
@@ -160,11 +225,19 @@ header{
     margin: 50px;
 }
 
+.quienes-somos div p::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .extractos div h2{
     text-align: center;
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .extractos div h4{
@@ -205,6 +278,18 @@ header{
     -moz-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
 }
 
+.ingles::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.espanol::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 
 /*ESTUDIOS*/
 
@@ -213,6 +298,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: xx-large;
+    margin: 5px 0px 0px 0px;
 }
 
 .estudios{
@@ -231,6 +317,12 @@ header{
     text-align: center;
 }
 
+.estudios-sub1 p::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .estudios iframe{
     height: 250px;
 }
@@ -240,6 +332,9 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    margin: 0px;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .certificaciones{
@@ -251,6 +346,9 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    margin: 0px;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .certificaciones div{
@@ -279,7 +377,15 @@ header{
 
 .certificaciones p{
     text-align: center;
+    margin: 0px;
 }
+
+.certificaciones p::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 
 /*SERVICIOS*/
 
@@ -338,6 +444,17 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: xx-large;
+    margin: 5px 0px 0px 0px;
+}
+
+.que-ofrecemos-sub p::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.que-ofrecemos-sub p{
+    margin: 0px 15px 15px 15px;
 }
 
 .que-ofrecemos div img{
@@ -346,10 +463,6 @@ header{
 
 .que-ofrecemos-sub{
     text-align: center;
-}
-
-.que-ofrecemos-sub p{
-    margin: 15px;
 }
 
 .idiomas{
@@ -380,6 +493,8 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .tipos{
@@ -395,6 +510,8 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .tipos div{
@@ -425,6 +542,8 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .conexion div{
@@ -464,6 +583,8 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .remoto div{
@@ -519,10 +640,12 @@ header{
 
 .opiniones h2{
     text-align: center;
-    margin: 15px;
+    margin: 25px 15px 15px 15px;
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .carousel-item img{
@@ -542,6 +665,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: xx-large;
+    margin: 5px 0px 0px 0px;
 }
 
 .redes-sociales div p a img{
@@ -553,25 +677,36 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    margin: 0px;
+    background-color: lavender;
+    padding: 3px;
 }
 
-.redes-sociales p{
+.redes-sociales div p{
     text-align: center;
 }
 
+.redes-sociales div p::first-letter{
+        color: slateblue;
+        font-size: 2rem;
+        font-weight: bold;
+}
+
 .redes-sociales{
-    margin: 30px;
+    margin: 15px 30px 30px 30px;
 }
 
 .formulario{
     text-align: center;
-    margin: 30px;
+    margin: 30px 30px 0px 30px;
 }
 
 .formulario h2{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    background-color: lavender;
+    padding: 3px;
 }
 
 .formulario img{
@@ -587,6 +722,9 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
+    background-color: lavender;
+    padding: 3px;
+    margin: 0px;
 }
 
 .ubicacion{
@@ -603,6 +741,12 @@ header{
 
 .ubicacion div p{
     text-align: center;
+}
+
+.ubicacion div p::first-letter{
+    color: slateblue;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .enviar-limpiar input{
@@ -635,12 +779,20 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
+.nombre input:focus{
+    outline-color: slateblue;
+}
+
 .apellido input{
     background-color: lavender;
     text-decoration: none;
     padding: 3px;
     margin: 5px;
     font-family: 'Poppins', sans-serif;
+}
+
+.apellido input:focus{
+    outline-color: slateblue;
 }
 
 .email input{
@@ -651,8 +803,19 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
+.email input:focus{
+    outline-color: slateblue;
+}
+
 .email label{
     margin: 14px;
+}
+
+.genero h3{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px;
 }
 
 .pais option{
@@ -664,11 +827,8 @@ header{
     font-size: small;
 }
 
-.genero h3{
-    font-family: poppins;
-    font-weight: bold;
-    font-size: large;
-    margin: 5px;
+.pais select:focus{
+    background-color: lavender;
 }
 
 .pais h3{
@@ -683,6 +843,10 @@ header{
     font-weight: bold;
     font-size: large;
     margin: 5px;
+}
+
+textarea:focus{
+        outline-color: slateblue;
 }
 
 
@@ -748,6 +912,7 @@ footer{
     border: 2px solid lightblue;
     width: fit-content;
     padding: 10px;
+    margin: 0px;
 }
 
 .direccion div{
@@ -907,6 +1072,7 @@ footer{
         flex-direction: column;
         text-align: center;
         margin: 5px;
+        padding: 0px;
     }
     header nav ul li a{
         margin: 5px
@@ -963,12 +1129,24 @@ footer{
     .quienes-somos div p{
         font-size: small;
     }
+    .quienes-somos div p::first-letter{
+        font-size: 1.2rem;
+    }
     .extractos-sub1 h4{
-        font-size: small;
+        font-size: xx-small;
         margin: 5px;
+    }
+    .ingles::first-letter{
+        font-size: 1.2rem;
+    }
+    .espanol::first-letter{
+        font-size: 1.2rem;
     }
     .estudios-sub1 p{
         font-size: small;
+    }
+    .estudios-sub1 p::first-letter{
+        font-size: 1.2rem;
     }
     .certificaciones div div ul li{
         font-size: small;
@@ -976,11 +1154,20 @@ footer{
     .certificaciones p{
         font-size: small;
     }
-    .ubicacion p{
+    .certificaciones p::first-letter{
+        font-size: 1.2rem;
+    }
+    .ubicacion div p{
         font-size: small;
+    }
+    .ubicacion div p::first-letter{
+        font-size: 1.2rem;
     }
     .redes-sociales div{
         font-size: small;
+    }
+    .redes-sociales div p::first-letter{
+        font-size: 1.2rem;
     }
 }
 
