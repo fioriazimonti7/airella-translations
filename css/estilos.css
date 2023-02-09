@@ -1,8 +1,16 @@
-@charset "UTF-8";
-/*--------GENERAL---------*/
+/*---------VARIABLES----------*/
+/*----LISTAS----*/
+/*----EXTEND----*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url(aos/dist/aos.css);
+.hero, .quienes-somos, .extractos, .que-ofrecemos .idiomas, .que-ofrecemos .tipos, .que-ofrecemos .conexion, .que-ofrecemos .remoto, .estudios, .certificaciones div, .ubicacion, footer .direccion, footer .direccion div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*----MIXIN----*/
+/*--------GENERAL---------*/
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +30,7 @@ h1 {
   text-align: center;
   font-size: xx-large;
   font-family: poppins;
-  color: #ad6a6c; }
+  color: #a45a52; }
 
 body {
   font-family: 'Poppins', sans-serif; }
@@ -76,220 +84,6 @@ select::selection {
   background-color: #d0ada7;
   color: white; }
 
-/*----------MEDIA QUERY------------*/
-@media screen and (max-width: 1284px) {
-  .extractos-sub2 {
-    flex-direction: column; } }
-
-@media screen and (max-width: 1046px) {
-  footer {
-    flex-direction: column; }
-  .contacto-redes {
-    align-items: center;
-    justify-content: center;
-    margin: 10px; }
-  .logo-redes {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .direccion {
-    justify-content: center;
-    align-items: center;
-    margin: 10px; }
-  .mapa-footer {
-    justify-content: center;
-    align-items: center;
-    margin: 20px; } }
-
-@media screen and (max-width: 896px) {
-  .hero div h1 {
-    font-size: x-large; } }
-
-@media screen and (max-width: 856px) {
-  .estudios {
-    flex-direction: column;
-    margin: 10px 30px 30px 30px; }
-  .estudios-sub1 {
-    margin: 0px 15px 15px 15px; }
-  .estudios iframe {
-    margin: 10px 10px 15px 10px; }
-  .ubicacion {
-    flex-direction: column;
-    margin: 10px 30px 30px 30px; }
-  .ubicacion div {
-    margin: 0px 10px 10px 10px; }
-  .ubicacion iframe {
-    margin: 10px; } }
-
-@media screen and (max-width: 842px) {
-  .idiomas {
-    flex-direction: column; }
-  .idiomas1 {
-    margin: 25px; }
-  .tipos {
-    flex-direction: column; }
-  .tipos1 {
-    margin: 25px; }
-  .conexion {
-    flex-direction: column; }
-  .conexion1 {
-    margin: 25px; }
-  .remoto {
-    flex-direction: column; }
-  .remoto1 {
-    margin: 25px; } }
-
-@media screen and (max-width: 800px) {
-  header {
-    flex-direction: column; } }
-
-@media screen and (max-width: 744px) {
-  .grid-container {
-    grid-auto-rows: 250px; } }
-
-@media screen and (max-width: 700px) {
-  .quienes-somos {
-    flex-direction: column; }
-  .quienes-somos div {
-    margin: 20px;
-    width: 80%; }
-  .quienes-somos div p {
-    text-align: center; } }
-
-@media screen and (max-width: 674px) {
-  .certificaciones div {
-    flex-direction: column; }
-  .certificaciones div div ul {
-    margin: 25px; }
-  .grid-container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 150px; }
-  .grid-item-laptop2 {
-    grid-row: span 2; }
-  .que-ofrecemos div img {
-    height: 230px; } }
-
-@media screen and (max-width: 560px) {
-  header nav ul {
-    flex-direction: column;
-    text-align: center;
-    margin: 5px;
-    padding: 0px; }
-  header nav ul li a {
-    margin: 5px; }
-  header {
-    height: 22vh; }
-  .que-ofrecemos div img {
-    height: 200px; } }
-
-@media screen and (max-width: 545px) {
-  .extracto {
-    font-size: small; } }
-
-@media screen and (max-width: 530px) {
-  .hero div h1 {
-    font-size: large; }
-  h1 {
-    font-size: x-large; } }
-
-@media screen and (max-width: 504px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr); }
-  .grid-item-maquina {
-    grid-column: span 2; }
-  .grid-item-maquina2 {
-    grid-column: span 2; } }
-
-@media screen and (max-width: 482px) {
-  .formulario img {
-    height: 200px; }
-  .quienes-somos img {
-    height: 200px; } }
-
-@media screen and (max-width: 460px) {
-  .extracto {
-    font-size: x-small;
-    margin: 0px 0px 20px 0px; }
-  .quienes-somos div p {
-    font-size: small;
-    /*-------------¿¿COMO HAGO CON FIRST LETTER??---------------*/ }
-  .extractos-sub1 h4 {
-    font-size: xx-small;
-    margin: 5px; }
-  /*-------------¿¿COMO HAGO CON FIRST LETTER??---------------*/
-  .estudios-sub1 p {
-    font-size: small; }
-  .certificaciones div div ul li {
-    font-size: small; }
-  .certificaciones p {
-    font-size: small; }
-  .ubicacion div p {
-    font-size: small; }
-  .redes-sociales div {
-    font-size: small; } }
-
-@media screen and (max-width: 434px) {
-  .que-ofrecemos div img {
-    height: 150px; }
-  .que-ofrecemos div {
-    font-size: small; } }
-
-@media screen and (max-width: 376px) {
-  .formulario img {
-    height: 150px; } }
-
-/*----------FOOTER-----------*/
-footer {
-  background-color: #d0ada7;
-  display: flex;
-  justify-content: space-around; }
-  footer .contacto-redes {
-    display: flex;
-    flex-direction: column;
-    margin: 20px; }
-    footer .contacto-redes h4 {
-      font-family: poppins;
-      font-weight: bold;
-      font-size: larger; }
-    footer .contacto-redes div .logo-redes {
-      height: 32px;
-      margin: 10px; }
-      footer .contacto-redes div .logo-redes a img {
-        transition: 0.5s; }
-        footer .contacto-redes div .logo-redes a img:hover {
-          transform: scale(1.2); }
-  footer .direccion {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px; }
-    footer .direccion h4 {
-      font-family: poppins;
-      font-weight: bold;
-      font-size: larger; }
-    footer .direccion img {
-      height: 32px;
-      margin: 10px; }
-    footer .direccion div {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      footer .direccion div p {
-        border: 2px solid #ad6a6c;
-        width: fit-content;
-        padding: 10px;
-        margin: 0px; }
-    footer .direccion address {
-      margin: 10px; }
-  footer .mapa-footer {
-    display: flex;
-    justify-content: end;
-    align-items: center; }
-    footer .mapa-footer iframe {
-      height: 250px; }
-
 /*----------HEADER-----------*/
 header {
   background-color: black;
@@ -331,10 +125,7 @@ header {
   background-size: cover;
   width: 100%;
   height: 90vh;
-  color: #ad6a6c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #a45a52;
   flex-direction: column; }
   .hero div h1 {
     font-size: xx-large;
@@ -343,8 +134,7 @@ header {
     margin: 20px;
     padding: 10px 15px 10px 15px;
     font-family: poppins;
-    font-weight: bold;
-    font-size: xx-large; }
+    font-weight: bold; }
   .hero a input {
     text-decoration: none;
     font-weight: bold;
@@ -357,81 +147,65 @@ header {
     font-family: poppins;
     font-size: small; }
     .hero a input:hover {
-      color: #ad6a6c;
+      color: #a45a52;
       transform: scale(1.1);
       box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75); }
 
-.quienes-somos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .quienes-somos div {
-    width: 50%;
-    margin: 50px; }
-    .quienes-somos div h2 {
-      text-align: center;
-      font-family: poppins;
-      font-weight: bold;
-      font-size: x-large;
-      margin: 0px;
-      background-color: #e8d6cb;
-      padding: 3px; }
-  .quienes-somos p {
+.quienes-somos div {
+  width: 50%;
+  margin: 50px; }
+  .quienes-somos div h2 {
     text-align: center;
-    /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
-  .quienes-somos img {
-    height: 250px; }
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+    background-color: #e8d6cb;
+    padding: 3px; }
+  .quienes-somos div p {
+    text-align: center; }
+    .quienes-somos div p::first-letter {
+      color: #5d2e46;
+      font-size: 2rem;
+      font-weight: bold; }
 
-.extractos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .extractos div {
-    margin: 50px; }
-    .extractos div h2 {
-      text-align: center;
-      font-family: poppins;
-      font-weight: bold;
-      font-size: x-large;
-      background-color: #e8d6cb;
-      padding: 3px; }
-    .extractos div h4 {
-      text-align: center;
-      margin: 5px;
-      font-family: poppins;
-      font-weight: bold;
-      font-size: large; }
-    .extractos div .extractos-sub2 {
-      display: flex;
-      flex-direction: row; }
-      .extractos div .extractos-sub2 div {
-        border: 5px solid #b58db6;
-        margin: 15px 20px 15px 20px;
-        padding: 10px 20px 10px 20px;
-        height: fit-content;
-        text-align: justify;
-        box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75); }
-        .extractos div .extractos-sub2 div p {
-          /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
-          .extractos div .extractos-sub2 div p a img {
-            height: 32px; }
-      .extractos div .extractos-sub2 div {
-        border: 5px solid #b58db6;
-        margin: 15px 20px 15px 20px;
-        padding: 10px 20px 10px 20px;
-        height: fit-content;
-        text-align: justify;
-        box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75); }
-        .extractos div .extractos-sub2 div p {
-          /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
-          .extractos div .extractos-sub2 div p a img {
-            height: 32px; }
+.quienes-somos img {
+  height: 250px; }
+
+.extractos div {
+  margin: 10px 50px 50px 50px; }
+  .extractos div h2 {
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #e8d6cb;
+    padding: 3px; }
+  .extractos div h4 {
+    text-align: center;
+    margin: 5px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large; }
+  .extractos div .extractos-sub2 {
+    display: flex; }
+    .extractos div .extractos-sub2 div {
+      border: 5px solid #b58db6;
+      margin: 15px 20px 15px 20px;
+      padding: 10px 20px 10px 20px;
+      height: fit-content;
+      text-align: justify;
+      box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75); }
+      .extractos div .extractos-sub2 div p a img {
+        height: 32px; }
+      .extractos div .extractos-sub2 div p::first-letter {
+        color: #5d2e46;
+        font-size: 2rem;
+        font-weight: bold; }
 
 /*-----------SERVICIOS--------------*/
 .grid .que-ofrecemos-sub {
@@ -442,8 +216,11 @@ header {
     font-size: xx-large;
     margin: 5px 0px 0px 0px; }
   .grid .que-ofrecemos-sub p {
-    margin: 0px 15px 15px 15px;
-    /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
+    margin: 0px 15px 15px 15px; }
+    .grid .que-ofrecemos-sub p::first-letter {
+      color: #5d2e46;
+      font-size: 2rem;
+      font-weight: bold; }
   .grid .que-ofrecemos-sub a input {
     text-decoration: none;
     font-weight: bold;
@@ -457,7 +234,7 @@ header {
     font-family: poppins;
     font-size: small; }
     .grid .que-ofrecemos-sub a input:hover {
-      color: #ad6a6c;
+      color: #a45a52;
       transform: scale(1.1);
       box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
@@ -511,9 +288,6 @@ header {
     -moz-box-shadow: 8px 9px 5px -2px rgba(0, 0, 0, 0.54); }
 
 .que-ofrecemos .idiomas {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 30px;
   text-align: center; }
   .que-ofrecemos .idiomas .idiomas1 {
@@ -536,11 +310,8 @@ header {
     height: 250px; }
 
 .que-ofrecemos .tipos {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
   margin: 30px;
+  flex-direction: row-reverse;
   text-align: center; }
   .que-ofrecemos .tipos .tipos1 {
     border: 3px solid #b58db6;
@@ -562,9 +333,6 @@ header {
     height: 250px; }
 
 .que-ofrecemos .conexion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 30px;
   text-align: center; }
   .que-ofrecemos .conexion .conexion1 {
@@ -592,12 +360,9 @@ header {
     height: 250px; }
 
 .que-ofrecemos .remoto {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
   margin: 30px;
-  text-align: center; }
+  text-align: center;
+  flex-direction: row-reverse; }
   .que-ofrecemos .remoto .remoto1 {
     border: 3px solid #b58db6;
     padding: 5px 10px 5px 10px;
@@ -625,9 +390,6 @@ header {
   margin: 5px 0px 0px 0px; }
 
 .estudios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 30px; }
   .estudios div {
     width: 50%;
@@ -641,8 +403,11 @@ header {
       background-color: #e8d6cb;
       padding: 3px; }
     .estudios div p {
-      text-align: center;
-      /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
+      text-align: center; }
+      .estudios div p::first-letter {
+        color: #5d2e46;
+        font-size: 2rem;
+        font-weight: bold; }
   .estudios iframe {
     height: 250px; }
 
@@ -658,13 +423,13 @@ header {
     padding: 3px; }
   .certificaciones p {
     text-align: center;
-    margin: 0px;
-    /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??-----------------*/ }
+    margin: 0px; }
+    .certificaciones p::first-letter {
+      color: #5d2e46;
+      font-size: 2rem;
+      font-weight: bold; }
   .certificaciones div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: row; }
     .certificaciones div div ul {
       border: 3px solid #b58db6;
       padding: 5px 10px 5px 10px;
@@ -725,9 +490,6 @@ header {
   margin: 5px 0px 0px 0px; }
 
 .ubicacion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 30px; }
   .ubicacion div {
     width: 50%;
@@ -741,8 +503,11 @@ header {
       padding: 3px;
       margin: 0px; }
     .ubicacion div p {
-      text-align: center;
-      /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??   -----------------*/ }
+      text-align: center; }
+      .ubicacion div p::first-letter {
+        color: #5d2e46;
+        font-size: 2rem;
+        font-weight: bold; }
   .ubicacion iframe {
     height: 250px; }
 
@@ -762,22 +527,25 @@ header {
     text-decoration: none;
     padding: 3px;
     margin: 5px;
-    font-family: 'Poppins', sans-serif;
-    /*---------------------¿¿CÓMO HAGO CON FOCUS??-----------------*/ }
+    font-family: 'Poppins', sans-serif; }
+    .formulario form .nombre input:focus {
+      outline-color: #b58db6; }
   .formulario form .apellido input {
     background-color: #e8d6cb;
     text-decoration: none;
     padding: 3px;
     margin: 5px;
-    font-family: 'Poppins', sans-serif;
-    /*---------------------¿¿CÓMO HAGO CON FOCUS??-----------------*/ }
+    font-family: 'Poppins', sans-serif; }
+    .formulario form .apellido input:focus {
+      outline-color: #b58db6; }
   .formulario form .email input {
     background-color: #e8d6cb;
     text-decoration: none;
     padding: 3px;
     margin: 5px;
-    font-family: 'Poppins', sans-serif;
-    /*---------------------¿¿CÓMO HAGO CON FOCUS??-----------------*/ }
+    font-family: 'Poppins', sans-serif; }
+    .formulario form .email input:focus {
+      outline-color: #b58db6; }
   .formulario form .email label {
     margin: 14px; }
   .formulario form .genero h3 {
@@ -792,15 +560,16 @@ header {
     margin: 5px; }
   .formulario form .pais select {
     font-family: poppins;
-    font-size: small;
-    /*---------------------¿¿CÓMO HAGO CON FOCUS??-----------------*/ }
-  .formulario form div {
-    /*---------------------¿¿CÓMO HAGO CON FOCUS EN TEXTAREA??-----------------*/ }
-    .formulario form div .titulo-mensaje {
-      font-family: poppins;
-      font-weight: bold;
-      font-size: large;
-      margin: 5px; }
+    font-size: small; }
+    .formulario form .pais select:focus {
+      background-color: #e8d6cb; }
+  .formulario form div .titulo-mensaje {
+    font-family: poppins;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px; }
+  .formulario form div textarea {
+    outline-color: #b58db6; }
   .formulario form .enviar-limpiar input {
     text-decoration: none;
     font-weight: bold;
@@ -814,7 +583,7 @@ header {
     font-family: poppins;
     font-size: small; }
     .formulario form .enviar-limpiar input:hover {
-      color: #ad6a6c;
+      color: #a45a52;
       transform: scale(1.1);
       box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 12px 12px 14px -4px rgba(0, 0, 0, 0.75);
@@ -831,5 +600,239 @@ header {
     background-color: #e8d6cb;
     padding: 3px; }
   .redes-sociales div p {
+    text-align: center; }
+    .redes-sociales div p::first-letter {
+      color: #5d2e46;
+      font-size: 2rem;
+      font-weight: bold; }
+
+/*----------FOOTER-----------*/
+footer {
+  background-color: #d0ada7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  footer .contacto-redes {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; }
+    footer .contacto-redes h4 {
+      font-family: poppins;
+      font-weight: bold;
+      font-size: larger; }
+    footer .contacto-redes div .logo-redes {
+      height: 32px;
+      margin: 10px; }
+      footer .contacto-redes div .logo-redes a img {
+        transition: 0.5s; }
+        footer .contacto-redes div .logo-redes a img:hover {
+          transform: scale(1.2); }
+  footer .direccion {
+    flex-direction: column;
     text-align: center;
-    /*---------------------¿¿CÓMO HAGO CON FIRST LETTER??   -----------------*/ }
+    margin: 20px; }
+    footer .direccion h4 {
+      font-family: poppins;
+      font-weight: bold;
+      font-size: larger; }
+    footer .direccion img {
+      height: 32px;
+      margin: 10px; }
+    footer .direccion div p {
+      border: 2px solid #a45a52;
+      width: fit-content;
+      padding: 10px;
+      margin: 0px; }
+    footer .direccion address {
+      margin: 10px; }
+  footer .mapa-footer {
+    display: flex;
+    justify-content: end;
+    align-items: center; }
+    footer .mapa-footer iframe {
+      height: 250px; }
+
+/*----------MEDIA QUERY------------*/
+@media screen and (max-width: 1422px) {
+  .extractos div .extractos-sub2 {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1046px) {
+  footer {
+    flex-direction: column; }
+    footer .contacto-redes {
+      align-items: center;
+      justify-content: center;
+      margin: 10px; }
+      footer .contacto-redes div .logo-redes {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    footer .direccion {
+      justify-content: center;
+      align-items: center;
+      margin: 10px; }
+    footer .mapa-footer {
+      justify-content: center;
+      align-items: center;
+      margin: 20px; } }
+
+@media screen and (max-width: 896px) {
+  .hero div h1 {
+    font-size: x-large; } }
+
+@media screen and (max-width: 856px) {
+  .estudios {
+    flex-direction: column;
+    margin: 10px 30px 30px 30px; }
+    .estudios .estudios-sub1 {
+      margin: 0px 15px 15px 15px; }
+    .estudios iframe {
+      margin: 10px 10px 15px 10px; }
+  .ubicacion {
+    flex-direction: column;
+    margin: 10px 30px 30px 30px; }
+    .ubicacion div {
+      margin: 0px 10px 10px 10px; }
+    .ubicacion iframe {
+      margin: 10px; } }
+
+@media screen and (max-width: 842px) {
+  .que-ofrecemos .idiomas {
+    flex-direction: column; }
+    .que-ofrecemos .idiomas .idiomas1 {
+      margin: 25px; }
+  .que-ofrecemos .tipos {
+    flex-direction: column; }
+    .que-ofrecemos .tipos .tipos1 {
+      margin: 25px; }
+  .que-ofrecemos .conexion {
+    flex-direction: column; }
+    .que-ofrecemos .conexion .conexion1 {
+      margin: 25px; }
+  .que-ofrecemos .remoto {
+    flex-direction: column; }
+    .que-ofrecemos .remoto .remoto1 {
+      margin: 25px; } }
+
+@media screen and (max-width: 800px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 744px) {
+  .grid .grid-container {
+    grid-auto-rows: 250px; } }
+
+@media screen and (max-width: 700px) {
+  .quienes-somos {
+    flex-direction: column; }
+    .quienes-somos div {
+      margin: 20px;
+      width: 80%; }
+      .quienes-somos div p {
+        text-align: center; } }
+
+@media screen and (max-width: 674px) {
+  .certificaciones div {
+    flex-direction: column; }
+    .certificaciones div div ul {
+      margin: 25px; }
+  .grid .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px; }
+    .grid .grid-container .grid-item-laptop2 {
+      grid-row: span 2; }
+  .que-ofrecemos div img {
+    height: 230px; } }
+
+@media screen and (max-width: 674px) {
+  .extractos div .extractos-sub2 {
+    margin: 0px; }
+    .extractos div .extractos-sub2 div {
+      margin: 0px 0px 15px 0px; } }
+
+@media screen and (max-width: 560px) {
+  header {
+    height: 22vh; }
+    header nav ul {
+      flex-direction: column;
+      text-align: center;
+      margin: 5px;
+      padding: 0px; }
+      header nav ul li a {
+        margin: 5px; }
+  .que-ofrecemos div img {
+    height: 200px; } }
+
+@media screen and (max-width: 545px) {
+  .extractos .extractos-sub1 .extractos-sub2 .extracto {
+    font-size: small; }
+  .que-ofrecemos .idiomas img {
+    height: 150px; }
+  .que-ofrecemos .tipos img {
+    height: 150px; }
+  .que-ofrecemos .conexion img {
+    height: 150px; }
+  .que-ofrecemos .remoto img {
+    height: 150px; } }
+
+@media screen and (max-width: 530px) {
+  .hero div h1 {
+    font-size: large; }
+  h1 {
+    font-size: x-large; } }
+
+@media screen and (max-width: 504px) {
+  .grid .grid-container {
+    grid-template-columns: repeat(2, 1fr); }
+    .grid .grid-container .grid-item-maquina {
+      grid-column: span 2; }
+    .grid .grid-container .grid-item-maquina2 {
+      grid-column: span 2; } }
+
+@media screen and (max-width: 482px) {
+  .formulario img {
+    height: 200px; }
+  .quienes-somos img {
+    height: 200px; } }
+
+@media screen and (max-width: 460px) {
+  .quienes-somos div p {
+    font-size: small; }
+    .quienes-somos div p::first-letter {
+      font-size: 1.2rem; }
+  .extractos .extractos-sub1 h4 {
+    margin: 5px; }
+  .extractos .extractos-sub1 .extractos-sub2 .extracto {
+    font-size: x-small;
+    margin: 0px 0px 20px 0px; }
+    .extractos .extractos-sub1 .extractos-sub2 .extracto p::first-letter {
+      font-size: 1.2rem; }
+  .estudios .estudios-sub1 p {
+    font-size: small; }
+    .estudios .estudios-sub1 p::first-letter {
+      font-size: 1.2rem; }
+  .certificaciones p {
+    font-size: small; }
+    .certificaciones p::first-letter {
+      font-size: 1.2rem; }
+  .certificaciones div div ul li {
+    font-size: small; }
+  .ubicacion div p {
+    font-size: small; }
+    .ubicacion div p::first-letter {
+      font-size: 1.2rem; }
+  .redes-sociales div {
+    font-size: small; }
+    .redes-sociales div p::first-letter {
+      font-size: 1.2rem; } }
+
+@media screen and (max-width: 434px) {
+  .que-ofrecemos div {
+    font-size: small; }
+    .que-ofrecemos div img {
+      height: 150px; } }
+
+@media screen and (max-width: 376px) {
+  .formulario img {
+    height: 150px; } }

@@ -26,7 +26,7 @@
 
 h1{
     text-align: center;
-    font-size: xx-large;
+    font-size: nth($font-size, 1);
     font-family: poppins;
     color: $redwood;
 }
@@ -40,84 +40,84 @@ body{
 p{
     &::selection{
         background-color: $tea-rose;
-        color: white; 
+        color: nth($colores, 2); 
     }    
 }
 
 h1{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 h2{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 h3{
     &::selection{
     background-color: $tea-rose;
-    color: white;
+    color: nth($colores, 2);
     }
 }
 
 h4{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 li{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 a{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 img{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 address{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 iframe{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 label{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 
 select{
     &::selection{
         background-color: $tea-rose;
-        color: white;
+        color: nth($colores, 2);
     }
 }
 

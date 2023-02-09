@@ -1,18 +1,41 @@
 /*---------VARIABLES----------*/
 
-$champagne-pink: 232, 214, 203;
-$tea-rose: 208, 173, 167;
-$redwood: 173, 106, 108;
-$violet: 93, 46, 70;
-$african-violet: 181, 141, 182;
+$champagne-pink: rgb(232, 214, 203);
+$tea-rose: rgb(208, 173, 167);
+$redwood: rgb(164, 90, 82);
+$violet: rgb(93, 46, 70);
+$african-violet: rgb(181, 141, 182);
+
+/*----LISTAS----*/
+
+$colores:
+black,
+white;
+
+$font-size:
+xx-large,
+x-large,
+large,
+medium,
+small,
+x-small,
+xx-small,
+larger;
 
 /*----EXTEND----*/
 
-
-
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*----MIXIN----*/
 
-
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
 
 

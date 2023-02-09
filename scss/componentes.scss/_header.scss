@@ -1,15 +1,13 @@
 /*----------HEADER-----------*/
 
 header{
-    background-color: black;
+    background-color: nth($colores, 1);
     height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(flex, space-between, center);
     h2{
-        color: white;
+        color: nth($colores, 2);
         margin: 0px 0px 0px 20px;
-        border: 2px solid white;
+        border: 2px solid nth($colores, 2);
         width: fit-content;
         padding: 5px 10px 5px 10px;
         box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
@@ -17,7 +15,7 @@ header{
         -moz-box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
         animation-delay: 0.5s;
         font-family: poppins;
-        font-size: x-large;
+        font-size: nth($font-size, 2);
         font-weight: bold;
     }
     nav{
@@ -28,7 +26,7 @@ header{
             li{
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: nth($colores, 2);
                     margin: 10px 20px 10px 20px;
                     transition: 1s;
                     &:hover{
