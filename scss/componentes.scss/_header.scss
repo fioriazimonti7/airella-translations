@@ -1,0 +1,42 @@
+/*----------HEADER-----------*/
+
+header{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: white;
+        margin: 0px 0px 0px 20px;
+        border: 2px solid white;
+        width: fit-content;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
+        -moz-box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
+        animation-delay: 0.5s;
+        font-family: poppins;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    nav{
+        .menu{
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin: 10px 20px 10px 20px;
+                    transition: 1s;
+                    &:hover{
+                        color: $african-violet;
+                    }
+                }
+            }
+        }
+    }
+}
+

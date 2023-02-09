@@ -28,6 +28,7 @@ h1{
     text-align: center;
     font-size: xx-large;
     font-family: poppins;
+    color: rgb(173, 106, 108);
 }
 
 body{
@@ -37,62 +38,62 @@ body{
 /*------SELECTION (PSEUDOELEMENTO)------*/
 
 p::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 h1::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 h2::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 h3::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 h4::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 li::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 a::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 img::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 address::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 iframe::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 label::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
 select::selection{
-    background-color: palevioletred;
+    background-color: rgb(208, 173, 167);
     color: white;
 }
 
@@ -106,9 +107,9 @@ header h2{
     border: 2px solid white;
     width: fit-content;
     padding: 5px 10px 5px 10px;
-    box-shadow: 8px 9px 5px -2px rgba(232,173,242,0.54);
-    -webkit-box-shadow: 8px 9px 5px -2px rgba(232,173,242,0.54);
-    -moz-box-shadow: 8px 9px 5px -2px rgba(232,173,242,0.54);
+    box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(181,141,182,0.75);
     animation-delay: 0.5s;
     font-family: poppins;
     font-size: x-large;
@@ -144,7 +145,7 @@ header{
 }
 
 .menu li a:hover{
-	color: palevioletred;
+	color: rgb(181, 141, 182);
 }
 
 
@@ -172,7 +173,7 @@ header{
     background-size: cover;
     width: 100%;
     height: 90vh;
-    color: slateblue;
+    color: rgb(173, 106, 108);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +181,7 @@ header{
 }
 
 .hero a input:hover{
-	color: palevioletred;
+	color: rgb(173, 106, 108);
     transform: scale(1.1);
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
@@ -191,7 +192,7 @@ header{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 5px;
     font-family: 'Poppins', sans-serif;
     border: 2px dotted black;
@@ -210,7 +211,7 @@ header{
     font-weight: bold;
     font-size: x-large;
     margin: 0px;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -225,8 +226,12 @@ header{
     margin: 50px;
 }
 
+.quienes-somos div p{
+    text-align: center;
+}
+
 .quienes-somos div p::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -236,7 +241,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -268,7 +273,7 @@ header{
 }
 
 .extracto{
-    border: 5px solid plum;
+    border: 5px solid rgb(181, 141, 182);
     margin: 15px 20px 15px 20px;
     padding: 10px 20px 10px 20px;
     height: fit-content;
@@ -279,13 +284,13 @@ header{
 }
 
 .ingles::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
 
 .espanol::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -318,7 +323,7 @@ header{
 }
 
 .estudios-sub1 p::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -333,7 +338,7 @@ header{
     font-weight: bold;
     font-size: x-large;
     margin: 0px;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -347,7 +352,7 @@ header{
     font-weight: bold;
     font-size: x-large;
     margin: 0px;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -367,7 +372,7 @@ header{
 }
 
 .certificaciones div ul{
-    border: 3px solid mediumpurple;
+    border: 3px solid rgb(181, 141, 182);
     padding: 5px 10px 5px 10px;
     text-align: center;
     box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
@@ -381,7 +386,7 @@ header{
 }
 
 .certificaciones p::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -421,8 +426,8 @@ header{
 .que-ofrecemos-sub a input{
     text-decoration: none;
     font-weight: bold;
-    color: blueviolet;
-    background-color: lavender;
+    color: black;
+    background-color: rgb(232, 214, 203);
     padding: 5px;
     font-family: 'Poppins', sans-serif;
     border: 2px dotted black;
@@ -433,7 +438,7 @@ header{
 }
 
 .que-ofrecemos-sub a input:hover{
-	color: palevioletred;
+	color: rgb(173, 106, 108);
     transform: scale(1.1);
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
@@ -448,7 +453,7 @@ header{
 }
 
 .que-ofrecemos-sub p::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -474,7 +479,7 @@ header{
 }
 
 .idiomas div{
-    border: 3px solid mediumpurple;
+    border: 3px solid rgb(181, 141, 182);
     padding: 5px 10px 5px 10px;
     box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
@@ -493,7 +498,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -510,12 +515,12 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
 .tipos div{
-    border: 3px solid mediumpurple;
+    border: 3px solid rgb(181, 141, 182);
     padding: 5px 10px 5px 10px;
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
@@ -542,12 +547,12 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
 .conexion div{
-    border: 3px solid mediumpurple;
+    border: 3px solid rgb(181, 141, 182);
     padding: 5px 10px 5px 10px;
     box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
@@ -564,10 +569,11 @@ header{
 
 .conexion div ul li a{
     transition: 1s;
+    color: black;
 }
 
 .conexion div ul li a:hover{
-    color: palevioletred;
+    color: rgb(181, 141, 182);
 }
 
 .remoto{
@@ -583,12 +589,12 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: larger;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
 .remoto div{
-    border: 3px solid mediumpurple;
+    border: 3px solid rgb(181, 141, 182);
     padding: 5px 10px 5px 10px;
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
@@ -625,7 +631,7 @@ header{
 
 .clientes div{
     border: 5px solid black;
-    background-color: mediumpurple;
+    background-color: rgb(181, 141, 182);
     padding: 10px 15px 10px 15px;
     margin: 5px;
     box-shadow: -14px 14px 14px -4px rgba(0,0,0,0.75);
@@ -644,7 +650,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -668,17 +674,13 @@ header{
     margin: 5px 0px 0px 0px;
 }
 
-.redes-sociales div p a img{
-    height: 32px;
-}
-
 .redes-sociales h2{
     text-align: center;
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
     margin: 0px;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -687,9 +689,9 @@ header{
 }
 
 .redes-sociales div p::first-letter{
-        color: slateblue;
-        font-size: 2rem;
-        font-weight: bold;
+    color: rgb(93, 46, 70);
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .redes-sociales{
@@ -705,7 +707,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
 }
 
@@ -722,7 +724,7 @@ header{
     font-family: poppins;
     font-weight: bold;
     font-size: x-large;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 3px;
     margin: 0px;
 }
@@ -744,7 +746,7 @@ header{
 }
 
 .ubicacion div p::first-letter{
-    color: slateblue;
+    color: rgb(93, 46, 70);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -753,7 +755,7 @@ header{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     padding: 5px;
     margin: 10px;
     font-family: 'Poppins', sans-serif;
@@ -764,7 +766,7 @@ header{
 }
 
 .enviar-limpiar input:hover{
-	color: palevioletred;
+	color: rgb(173, 106, 108);
     transform: scale(1.1);
     box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 12px 12px 14px -4px rgba(0,0,0,0.75);
@@ -772,7 +774,7 @@ header{
 }
 
 .nombre input{
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     text-decoration: none;
     padding: 3px;
     margin: 5px;
@@ -780,11 +782,11 @@ header{
 }
 
 .nombre input:focus{
-    outline-color: slateblue;
+    outline-color: rgb(181, 141, 182);
 }
 
 .apellido input{
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     text-decoration: none;
     padding: 3px;
     margin: 5px;
@@ -792,11 +794,11 @@ header{
 }
 
 .apellido input:focus{
-    outline-color: slateblue;
+    outline-color: rgb(181, 141, 182);
 }
 
 .email input{
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
     text-decoration: none;
     padding: 3px;
     margin: 5px;
@@ -804,7 +806,7 @@ header{
 }
 
 .email input:focus{
-    outline-color: slateblue;
+    outline-color: rgb(181, 141, 182);
 }
 
 .email label{
@@ -828,7 +830,7 @@ header{
 }
 
 .pais select:focus{
-    background-color: lavender;
+    background-color: rgb(232, 214, 203);
 }
 
 .pais h3{
@@ -846,7 +848,7 @@ header{
 }
 
 textarea:focus{
-        outline-color: slateblue;
+    outline-color: rgb(181, 141, 182);
 }
 
 
@@ -854,7 +856,7 @@ textarea:focus{
 
 
 footer{
-    background-color: lavender;
+    background-color: rgb(208, 173, 167);
     display: flex;
     justify-content: space-around;
 }
@@ -909,7 +911,7 @@ footer{
 }
 
 .direccion div p{
-    border: 2px solid lightblue;
+    border: 2px solid rgb(173, 106, 108);
     width: fit-content;
     padding: 10px;
     margin: 0px;

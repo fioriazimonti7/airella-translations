@@ -1,0 +1,71 @@
+/*----------FOOTER-----------*/
+
+footer{
+    background-color: $tea-rose;
+    display: flex;
+    justify-content: space-around;
+    .contacto-redes{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        h4{
+            font-family: poppins;
+            font-weight: bold;
+            font-size: larger;
+        }
+        div{
+            .logo-redes{
+                height: 32px;
+                margin: 10px;
+                a{
+                    img{
+                        transition: 0.5s;
+                        &:hover{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .direccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        h4{
+            font-family: poppins;
+            font-weight: bold;
+            font-size: larger;
+        }
+        img{
+            height: 32px;
+            margin: 10px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                border: 2px solid $redwood;
+                width: fit-content;
+                padding: 10px;
+                margin: 0px;
+            }
+        }
+        address{
+            margin: 10px;
+        }
+    }
+    .mapa-footer{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        iframe{
+            height: 250px;
+        }
+    }
+}
+
