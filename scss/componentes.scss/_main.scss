@@ -612,6 +612,9 @@
                 outline-color: $african-violet
             }
         }
+        .captcha{
+            @extend %flex;
+        }
         .enviar-limpiar{
             input{
                 text-decoration: none;

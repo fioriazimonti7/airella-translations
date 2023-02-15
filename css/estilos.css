@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url(aos/dist/aos.css);
-.hero, .quienes-somos, .extractos, .que-ofrecemos .idiomas, .que-ofrecemos .tipos, .que-ofrecemos .conexion, .que-ofrecemos .remoto, .estudios, .certificaciones div, .ubicacion, footer .direccion, footer .direccion div {
+.hero, .quienes-somos, .extractos, .que-ofrecemos .idiomas, .que-ofrecemos .tipos, .que-ofrecemos .conexion, .que-ofrecemos .remoto, .estudios, .certificaciones div, .ubicacion, .formulario form .captcha, footer .direccion, footer .direccion div {
   display: flex;
   justify-content: center;
   align-items: center; }
