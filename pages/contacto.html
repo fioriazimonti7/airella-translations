@@ -50,7 +50,7 @@
         <section class="formulario">        
             <h2>¡Consultá tus dudas!</h2>
             <img data-aos="fade-up" data-aos-duration="500" src="../images/contacto.png" alt="imagen-contacto">
-            <form data-aos="fade-up" data-aos-duration="500" action="" method="" enctype="">
+            <form data-aos="fade-up" data-aos-duration="500" action="" method="POST" data-netlify="true" enctype="">
                 <div class="nombre">
                     <label for="nombre">Nombre/s</label>
                     <input type="text" name="nombre" id="nombre">
@@ -231,6 +231,7 @@
                     <h3 class="titulo-mensaje">Mensaje</h3>
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <div class="enviar-limpiar">
                     <input type="submit" value="Enviar formulario">
                     <input type="reset" value="Limpiar formulario">
